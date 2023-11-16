@@ -1,0 +1,21 @@
+PASOS PARA LA CREACION DE UN API
+ejercutar esos comandos en la consola:
+npm init -y
+npm i express morgan
+npm i nodemon -D
+
+nodemon es un comando para que el servidor se reinicie cuando haya un cambio
+- luego crear el archivo: server.js
+- luego colocar el siguiente comando en el archivo package.json
+"scripts": {
+    "dev": "nodemon server.js"
+  },
+- guardas los cambios y por ultimo ejecutas el comando:
+npm run dev
+puedes probar colocando un console.log("hello World")
+y se mostrara automaticamente en la consola
+
+-----------
+el mentodo filter en javasscript
+a.filter(n => n !==10)
+en esa isntruccion podemos ver que mostrara todos los elementos del array que no sean el nro 10
